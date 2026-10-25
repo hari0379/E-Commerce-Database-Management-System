@@ -1,5 +1,8 @@
-# E-Commerce-Database-Management-System
-A MySQL-based E-Commerce Database Management System to manage customers, products, categories, orders, and payments using SQL queries, joins, views, stored procedures, and triggers. 2. README.md file
+# E-Commerce Database Management System
+
+## 📌 Project Overview
+
+The **E-Commerce Database Management System** is a MySQL-based project designed to efficiently manage customer information, product categories, product inventory, customer orders, and payment transactions.
 
 This project demonstrates how relational databases and SQL queries can be used to store, retrieve, update, and analyze e-commerce data.
 
@@ -23,11 +26,13 @@ This project demonstrates how relational databases and SQL queries can be used t
 
 The project contains five main tables:
 
- Customers - Stores customer details and contact information 
- Categories - Stores product category information 
- Products - Maintains product names, prices, categories, and stock 
- Orders - Records customer orders and order statuses 
- Payments - Stores payment methods, amounts, and statuses 
+| Table | Description |
+|---|---|
+| Customers | Stores customer details and contact information |
+| Categories | Stores product category information |
+| Products | Maintains product names, prices, categories, and stock |
+| Orders | Records customer orders and order statuses |
+| Payments | Stores payment methods, amounts, and statuses |
 
 ## ✨ Key Features
 
@@ -65,14 +70,17 @@ The database supports queries to:
 
 **Note:** Stored procedures and triggers must be created in the SQL script before their corresponding `CALL` statements or test queries can run. Check that all object definitions are included in the script.
 
+
 ## 🎓 Learning Outcomes
 
 Through this project, I practiced relational database design, SQL query writing, table relationships, joins, subqueries, views, transactions, stored procedures, and triggers.
+
 
 ## 🏁 Conclusion
 
 The E-Commerce Database Management System demonstrates how MySQL can be used to organize and manage e-commerce data efficiently. It applies SQL concepts to support inventory management, order processing, payment tracking, and sales reporting.
 
+---
 
 **Project Type:** Database Management System  
 **Domain:** E-Commerce  
